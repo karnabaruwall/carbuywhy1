@@ -11,7 +11,8 @@ $criteria=[
     'password'=>$_POST['password']
 ];
 $insertvalue->execute($criteria);
-header('Location: https://v.je');
+
+header('Location: index.php');
   exit;
 }
 ?>

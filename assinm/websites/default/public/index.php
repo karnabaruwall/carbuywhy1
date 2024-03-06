@@ -2,9 +2,10 @@
 // index.php
 
 // Include header
-include_once("includes/header.php");
+// include_once(__DIR__ . "/header.php");
 
-include_once("includes/content.php");
+//TODO - Include the content file commenting out 
+// include_once(__DIR__ . "/content.php");
 
 // Database configuration
 $servername = "localhost"; // Replace with your server name
@@ -47,7 +48,8 @@ try {
 }
 
 // Include footer
-include_once("includes/footer.php");
+//TODO - Include the footer file commenting out
+// include_once("includes/footer.php");
 ?>
 
 <!DOCTYPE html>
